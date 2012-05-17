@@ -1,4 +1,4 @@
-package cs.main.modelo;
+package cs.modelo;
 
 import java.io.Serializable;
 import java.util.Calendar;

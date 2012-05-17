@@ -1,5 +1,4 @@
-package cs.main;
-
+package cs.app;
 
 public class App 
 {
