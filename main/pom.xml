@@ -1,4 +1,5 @@
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
    <groupId>root</groupId>
    <version>1.0</version>
@@ -50,13 +51,18 @@
             <version>1.0</version>
             <type>ejb</type>
          </dependency>
+         <dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>4.1.2.Final</version>
+		</dependency>    
       </dependencies>
    </dependencyManagement>
    <distributionManagement>
       <site>
          <id>site</id>
-         <name>project website</name>
-         <url>scp://local.company.com/websites/project.company.com/</url>
+         <name>Sitio web del proyecto</name>
+         <url>https://github.com/DevilishFreak/cs2012</url>
       </site>
    </distributionManagement>
 </project>
