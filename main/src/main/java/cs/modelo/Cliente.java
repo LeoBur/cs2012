@@ -6,18 +6,14 @@ import java.util.Calendar;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
+import cs.Cuit;
+
 @Entity
-public class Cliente implements Serializable {
+public class Cliente extends Persona {
 
-	private static final long serialVersionUID = 1L;
-
-	@Id
-	private Long dni;	
-
-	private String nombre;
-	private String domicilio;
-	private String email;
-	private Calendar fechaNac;
-	private Long telefono;
-	private String sexo;
+	@NotNull
+	private String facebook;
+	@NotNull
+	@Cuit
+	private Int cuit;
 }
