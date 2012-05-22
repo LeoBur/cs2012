@@ -11,6 +11,7 @@ import cs.Cuit;
 @Entity
 public class Cliente extends Persona {
 
+	private static final long serialVersionUID = 1L;
 	@NotNull
 	private String facebook;
 	@NotNull

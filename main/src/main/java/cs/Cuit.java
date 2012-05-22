@@ -4,5 +4,6 @@ package cs.modelo;
 @Retention(Runtime)
 @Constraint
 public @interface Cuit {
+	
 
 }
