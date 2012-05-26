@@ -1,20 +1,32 @@
 package cs.modelo;
 
-import java.io.Serializable;
-import java.util.Calendar;
-
 import javax.persistence.Entity;
-import javax.persistence.Id;
-
-import cs.Cuit;
+import javax.validation.constraints.NotNull;
 
 @Entity
 public class Cliente extends Persona {
 
 	private static final long serialVersionUID = 1L;
+	
 	@NotNull
 	private String facebook;
+	
 	@NotNull
-	@Cuit
-	private Int cuit;
+	private String cuit;
+	
+	public String getFacebook() {
+		return facebook;
+	}
+
+	public void setFacebook(String facebook) {
+		this.facebook = facebook;
+	}
+
+	public String getCuit() {
+		return cuit;
+	}
+
+	public void setCuit(String cuit) {
+		this.cuit = cuit;
+	}
 }
