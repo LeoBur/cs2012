@@ -15,6 +15,8 @@ public class Persona implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	@Id
+	private Long id;
+	
 	private Long dni;
 	
 	@NotNull
@@ -32,6 +34,12 @@ public class Persona implements Serializable {
 	private Long telefono;
 	private String sexo;
 	
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
 	public Long getDni() {
 		return dni;
 	}

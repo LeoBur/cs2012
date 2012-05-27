@@ -8,11 +8,10 @@ public class Cliente extends Persona {
 
 	private static final long serialVersionUID = 1L;
 	
-	@NotNull
 	private String facebook;
 	
 	@NotNull
-	private String cuit;
+	private String cuil;
 	
 	public String getFacebook() {
 		return facebook;
@@ -22,11 +21,11 @@ public class Cliente extends Persona {
 		this.facebook = facebook;
 	}
 
-	public String getCuit() {
-		return cuit;
+	public String getCuil() {
+		return cuil;
 	}
 
-	public void setCuit(String cuit) {
-		this.cuit = cuit;
+	public void setCuil(String cuil) {
+		this.cuil = cuil;
 	}
 }
