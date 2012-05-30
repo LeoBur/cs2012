@@ -7,8 +7,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>main</name>
-  <url>http://maven.apache.org</url>
+  <name>CS 2012 EJB</name>
+  <url>https://github.com/DevilishFreak/cs2012</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
